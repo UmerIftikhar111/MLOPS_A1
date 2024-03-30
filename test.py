@@ -1,6 +1,6 @@
-import unittest
 from flask import json
-from app import app 
+from app import app
+import unittest
 
 class FlaskApiTest(unittest.TestCase):
     def setUp(self):
@@ -8,7 +8,7 @@ class FlaskApiTest(unittest.TestCase):
         self.app.testing = True
 
     def test_predict_endpoint(self):
-        # Sample payload matching the structure your API expects
+        # Sample payload matching the structure your API expects 
         payload = {
             "battery_power": 842,
             "blue": 0,
