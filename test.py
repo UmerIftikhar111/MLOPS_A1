@@ -1,6 +1,6 @@
 import unittest
 from flask import json
-from app import app  # Import your Flask app
+from app import app 
 
 class FlaskApiTest(unittest.TestCase):
     def setUp(self):
