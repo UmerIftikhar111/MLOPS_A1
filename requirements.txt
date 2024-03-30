@@ -1,5 +1,5 @@
 flask
-joblib
 pytest
 pytest-flask
 scikit-learn
+joblib

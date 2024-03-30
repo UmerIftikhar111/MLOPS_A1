@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-import joblib
+import joblib #import joblib library
 
 app = Flask(__name__)
 
