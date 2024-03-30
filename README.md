@@ -1,5 +1,10 @@
 # MLOPS_A1
 
+Umer Iftikhar - 20i0784
+Usman babar - 20i1784
+
+DS-N
+
 # Mobile Price Range Prediction
 
 # Overview
