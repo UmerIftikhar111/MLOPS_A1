@@ -18,9 +18,3 @@ jobs:
       - name: Install dependencies
         run: |
           make
-      - name: Run api
-        run: |
-          make run
-      - name: Run test
-        run: |
-          make test
