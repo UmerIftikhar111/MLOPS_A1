@@ -1,5 +1,5 @@
 from flask import json
-from app import app
+from api import app
 import unittest
 
 class FlaskApiTest(unittest.TestCase):
