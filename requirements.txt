@@ -1,5 +1,5 @@
 flask
-pytest
-pytest-flask
 scikit-learn
 joblib
+pytest
+pytest-flask

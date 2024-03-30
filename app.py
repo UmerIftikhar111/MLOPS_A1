@@ -6,6 +6,7 @@ app = Flask(__name__)
 # Load your trained classifier
 classifier = joblib.load('svm_model.joblib')
 
+# routes
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get data from POST request
@@ -21,6 +22,7 @@ def predict():
 
     # Predict the price range
     prediction = classifier.predict([features])
+    # returning price range
     return jsonify({'price_range': int(prediction[0])})
 
 if __name__ == '__main__':
