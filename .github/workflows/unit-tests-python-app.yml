@@ -17,7 +17,10 @@ jobs:
           python-version: '3.8'
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-      - name: Run Unit Tests
+          make
+      - name: Run api
         run: |
-          pytest
+          make run
+      - name: Run test
+        run: |
+          make test
