@@ -2,3 +2,4 @@ flask
 joblib
 pytest
 pytest-flask
+sklearn
