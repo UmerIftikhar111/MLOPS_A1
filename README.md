@@ -32,7 +32,7 @@ The Decision Tree Classifier provides a more interpretable model, using a tree-l
 
 # Model Performance
 
-The models were evaluated based on accuracy, precision, recall, and F1-score. Replace <model_performance_metrics> with your actual metrics, for example:
+The models were evaluated based on accuracy:
 
 SVM Classifier:
 Accuracy: 96%
